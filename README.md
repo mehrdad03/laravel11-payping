@@ -1,11 +1,11 @@
-# payping for laravel 8
+# payping for laravel 10
 درگاه پرداخت پی پینگ برای لاراول 8
 
 payment and oauth2 request library for payping
 
 ## نحوه استفاده
 ### نصب
-``composer require tdanandeh/payping``
+``composer require laravel-payping``
 
 ### درخواست پرداخت
 ```php
