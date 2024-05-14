@@ -5,7 +5,7 @@ payment and oauth2 request library for payping
 
 ## نحوه استفاده
 ### نصب
-``composer require laravel-payping``
+``composer require mahdisarani/laravel-payping``
 
 ### درخواست پرداخت
 ```php
