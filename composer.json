@@ -1,0 +1,39 @@
+{
+  "name": "payping/laravel",
+  "type": "library",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Payping Technical",
+      "email": "php@payping.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PayPing\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.2",
+    "ext-openssl": "*",
+    "ext-json": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PayPing\\Laravel\\PayPingServiceProvider"
+      ],
+      "aliases": {
+        "Authorization": "PayPing\\Laravel\\Facade\\Authorization",
+        "Payment": "PayPing\\Laravel\\Facade\\Payment"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+   "prefer-stable": true,
+  "version": "1.0.0",
+  "description": "PayPing for Laravel 10"
+}
