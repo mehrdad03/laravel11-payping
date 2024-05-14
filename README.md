@@ -1,5 +1,5 @@
 # payping for laravel 10
-درگاه پرداخت پی پینگ برای لاراول 8
+درگاه پرداخت پی پینگ برای لاراول 10
 
 payment and oauth2 request library for payping
 
