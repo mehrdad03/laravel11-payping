@@ -19,7 +19,8 @@
   "require": {
     "guzzlehttp/guzzle": "^7.2",
     "ext-openssl": "*",
-    "ext-json": "*"
+    "ext-json": "*",
+    "laravel/framework": "^11.0"
   },
   "extra": {
     "laravel": {
@@ -35,5 +36,5 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "version": "1.0.0",
-  "description": "PayPing for Laravel 10"
+  "description": "PayPing for Laravel 11"
 }
